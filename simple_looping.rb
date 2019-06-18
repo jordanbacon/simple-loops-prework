@@ -15,7 +15,7 @@ number_of_times.times do
   puts phrase
 end
 
-while i < gets
+while i < number_of_times
   puts "Welcome to Flatiron School's Web Development Course!"
   i += 1
 end
