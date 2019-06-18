@@ -20,7 +20,7 @@ while count < number_of_times
   count += 1
 end
 
-until i >= gets.chomp
+until count >= gets.chomp
   puts "Welcome to Flatiron School's Web Development Course!"
   i += 1
 end
