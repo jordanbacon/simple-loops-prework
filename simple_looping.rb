@@ -15,6 +15,7 @@ number_of_times.times do
 end
 
 def while_iterator(number_of_times)
+count = 0
 while count < number_of_times
   puts phrase
   count += 1
