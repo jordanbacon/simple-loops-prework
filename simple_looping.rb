@@ -26,6 +26,7 @@ until count == number_of_times do
   count += 1
 end
 
+def for_iterator(number_of_times)
 count = 1..number_of_times
 for each in count  
   puts "Welcome to Flatiron School's Web Development Course!"
