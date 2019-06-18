@@ -16,7 +16,7 @@ number_of_times.times do
 end
 
 while count < number_of_times
-  puts "Welcome to Flatiron School's Web Development Course!"
+  puts phrase
   count += 1
 end
 
