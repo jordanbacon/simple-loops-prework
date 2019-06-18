@@ -20,9 +20,9 @@ while count < number_of_times
   count += 1
 end
 
-until count == number_of_times
+until count == number_of_times do
   puts "Welcome to Flatiron School's Web Development Course!"
-  i += 1
+  count += 1
 end
 
 for i in 0..get.chomp
