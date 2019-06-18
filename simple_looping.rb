@@ -12,7 +12,7 @@ loop do
 end
 
 gets.times do
-  puts "Welcome to Flatiron School's Web Development Course!"
+  puts "Welcome to Flatiron phra's Web Development Course!"
 end
 
 while i < gets
