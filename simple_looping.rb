@@ -10,6 +10,7 @@ loop do
   end
 end
 
+def 
 number_of_times.times do
   puts phrase
 end
