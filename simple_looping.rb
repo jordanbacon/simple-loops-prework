@@ -15,9 +15,9 @@ number_of_times.times do
   puts phrase
 end
 
-while i < number_of_times
+while count < number_of_times
   puts "Welcome to Flatiron School's Web Development Course!"
-  i += 1
+  count += 1
 end
 
 until i >= gets.chomp
