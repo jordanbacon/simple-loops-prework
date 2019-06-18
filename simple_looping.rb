@@ -25,7 +25,7 @@ until count == number_of_times do
   count += 1
 end
 
-for i in 0..get.chomp
+for count = 1..number_of_times
   puts "Welcome to Flatiron School's Web Development Course!"
 end
     
