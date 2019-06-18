@@ -11,7 +11,7 @@ loop do
   end
 end
 
-gets.times do
+number_of_times.times do
   puts phrase
 end
 
