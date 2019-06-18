@@ -25,8 +25,8 @@ until count == number_of_times do
   count += 1
 end
 
-for count = 1..number_of_times
-  
+count = 1..number_of_times
+for each in   
   puts "Welcome to Flatiron School's Web Development Course!"
 end
     
