@@ -1,6 +1,34 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
+phrase = "Welcome to Flatiron School's Web Development Course!"
+
+count = 0
+loop do
+  puts phrase
+    count += 1
+    break if count = number_of_times
+  end
+end
+
+gets.times do
+  puts "Welcome to Flatiron School's Web Development Course!"
+end
+
+while i < gets
+  puts "Welcome to Flatiron School's Web Development Course!"
+  i += 1
+end
+
+until i >= gets.chomp
+  puts "Welcome to Flatiron School's Web Development Course!"
+  i += 1
+end
+
+for i in 0..get.chomp
+  puts "Welcome to Flatiron School's Web Development Course!"
+end
+    
   # Code your solution here using the "loop" keyword to puts out the below phrase
   # This and all the other methods take an argument of an integer 
   # The integer is the number of times the loops should puts out the phrase
